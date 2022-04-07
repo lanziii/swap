@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "
-       Creat-SWAP by yanglc
+       Creat-SWAP by lanzi
        本脚本仅在Debian系系统下进行过测试
        "
 now=`free -m| grep "Swap:"| awk '{print $2}'`
